@@ -30,12 +30,12 @@ function Froggit:init()
     }
 
     -- Dialogue randomly displayed in the enemy's speech bubble
-    self.dialogue = {
-        "[wave:2]Ribbit,\nribbit.",
-        "[wave:2]Croak,\ncroak.",
-        "[wave:2]Hop,\nhop.",
-        "[wave:2]Meow."
-    }
+self.dialogue = {
+    "{froggit.dialogue.ribbit}",
+    "{froggit.dialogue.croak}",
+    "{froggit.dialogue.hop}",
+    "{froggit.dialogue.meow}"
+}
 
     -- Check text (automatically has "ENEMY NAME - " at the start)
     self.check = "ATK 4 DEF 5\n* Life is difficult for\nthis enemy."
@@ -82,7 +82,7 @@ end
 function Froggit:onAct(battler, name)
     if name == "Compliment" then
         -- Give the enemy 100% mercy
-        self:addMercy(100)
+        self:addMercy(50)
         -- Change this enemy's dialogue for 1 turn
         self.dialogue_override = "[wave:2](Blushes\ndeeply.)\nRibbit .. "
 

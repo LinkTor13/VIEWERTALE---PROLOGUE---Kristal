@@ -5,7 +5,7 @@ function item:init()
 
     -- Display name
     self.name = "Real Knife"
-    self.short_name = "RealKnife"
+    self.short_name = "{realknife.shortname}"
 
     -- Item type (item, key, weapon, armor)
     self.type = "weapon"

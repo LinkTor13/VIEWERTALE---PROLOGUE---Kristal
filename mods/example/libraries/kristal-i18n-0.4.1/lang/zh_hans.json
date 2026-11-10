@@ -1223,7 +1223,14 @@
  "item_undertale/stick_description": "Un Baton. \nCe n'est pas très efficace.",
  "item_undertale/bandage_name": "Bandage",
  "item_undertale/bandage_description": "Un bandage. \nC'est assez efficace.",
-  "item_undertale/real_knife_name": "Vraie Couteau",
+ "item_undertale/real_knife_name": "Vrai Couteau",
  "item_undertale/real_knife_description": "* On y va!",
-  "item_undertale/real_knife_check": "Arme AT 99\n* On y va!"
+ "item_undertale/real_knife_check": "Arme AT 99\n* On y va!",
+ "item_undertale/real_knife_effect": "Mon couteau",
+ "realknife.shortname": "Vrai Couteau",
+ "froggit.dialogue.ribbit": "[wave:2]Cro,\ncroa.",
+ "froggit.dialogue.croak": "[wave:2]Rib,\nRibit.",
+ "froggit.dialogue.hop": "[wave:2]Saute,\nsaute.",
+ "froggit.dialogue.meow": "[wave:2]Miaou."
 }
+

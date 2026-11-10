@@ -4,7 +4,7 @@
     "fallbacks": [
         {
             "font": "lang/zh_hans/zh_main",
-            "size": 24
+            "size": 28
         },
         {
             "font": "ja_main",

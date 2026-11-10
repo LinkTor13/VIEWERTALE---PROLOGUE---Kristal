@@ -48,11 +48,12 @@ function character:init()
     self.max_stats = {
         health = 120
     }
+    -- Display level
+    self:setLightLV(20)
 
     -- Weapon icon in equip menu
     self.weapon_icon = "ui/menu/equip/rapier"
 
-    self:setWeapon("wood_rapier")
 
     -- Default light world equipment item IDs (saves current equipment)
     self.lw_weapon_default = "undertale/stick"
@@ -112,7 +113,7 @@ function character:init()
 
     -- Character flags (saved to the save file)
     self.flags = {
-        ["player_name"] = false,
+        ["player_name"] = true,
     }
 end
 

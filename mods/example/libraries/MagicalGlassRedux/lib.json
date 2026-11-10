@@ -84,12 +84,12 @@
         ///// UNDERTALE Movement Can Run
         // Enables the ability to run when using the Undertale player movement.
         /////
-        "undertale_movement_can_run": true,
+        "undertale_movement_can_run": false,
 
         ///// Balanced UNDERTALE Items Price
         // Whether to use balanced buy and sell prices for UNDERTALE items or use the original UNDERTALE prices.
         /////
-        "balanced_undertale_items_price": true,
+        "balanced_undertale_items_price": false,
 
         ///// Item Conversion
         // Like in Deltarune, converts the Dark World inventory to the Ball of Junk and items like the Shadow Crystal to Glass
@@ -124,7 +124,7 @@
         // Subtracts 10 from base AT and DF in the Light World's STAT menu.
         // Moves the currency amount in the menu to be align with the rest of the amonuts.
         /////
-        "undertale_menu_display": false,
+        "undertale_menu_display": true,
 
         ///// Show Magic
         // Whether to display the MAGIC stat and spells in the Light World STAT menu.
@@ -216,7 +216,7 @@
         // Uses Deltarune saving style.
         //
         /////
-        "savepoint_style": "deltarune",
+        "savepoint_style": "undertale",
 
         ///// Savepoint Heal
         // Whether your party will be healed when using a savepoint by default.
@@ -224,19 +224,19 @@
         // First Value: Whether your party gets healed in the dark world.
         // Second Value: Whether your party gets healed in the light world.
         /////
-        "savepoint_heal": [true, false],
+        "savepoint_heal": [true, true],
 
         ///// Light Save Menu Hours Display
         // Displays hours in light save menus.
         // (Ignored if "savepoint_style" is set to "deltarune")
         /////
-        "light_save_menu_hours": true,
+        "light_save_menu_hours": false,
 
         ///// Light Save Menu Expanded
         // Allows having 3 save slots in the light world save points.
         // (Ignored if "savepoint_style" is set to "deltarune")
         /////
-        "light_save_menu_expanded": true,
+        "light_save_menu_expanded": false,
 
         ///// Text Choice Box Sound
         // Whether to play the ui move sound effect when switching between options during a text choice box or not.

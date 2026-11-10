@@ -1,10 +1,4 @@
 {
-    "defaultSize": 16,
-
-    "fallbacks": [
-        {
-            "font": "ja_main",
-            "size": 16
-        }
-    ]
+    "glyphs":" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~àáâãäåæçèéêëìíîïñòóôõöœøùúûüýÿÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖŒØÙÚÛÜÝŸ",
+    "lineSpacing": 20
 }
