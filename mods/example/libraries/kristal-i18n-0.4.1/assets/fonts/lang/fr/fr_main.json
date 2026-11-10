@@ -1,0 +1,10 @@
+{
+    "defaultSize": 24,
+
+    "fallbacks": [
+        {
+            "font": "fr_main",
+            "size": 24
+        }
+    ]
+}
